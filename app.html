@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+				
+				 <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="George Kalonde">
+    <meta name="generator" content="Hugo 0.82.0">
+    
+    <title>PIANOMUZIK</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+    				
+
+
+
+      
+body{
+				background-color:white;
+				margin:auto;
+				padding:10px;
+				
+}
+.start{
+      height:100px;
+      width:100px;
+      border-radius:100px;
+      justify-content:center;
+      align-items	:center	;	
+      margin-top:200px;
+      box-shadow:1px 1px 1px 1px black;																
+}
+
+video{ 
+ width:200px;
+ height:160px;
+ margin:10px;
+ }
+ 
+ .piano{
+ 				
+ 				background:#4c83b7;
+ 				padding:12px;
+ 				padding:10px;
+ 				border-radius:7px;
+ 				
+ }
+ 
+ .key{
+ 				background:darkgrey;
+ 				color:white;
+ 				padding:14px;
+ 				margin:8px;
+ 				border-radius:100px;
+ 				width:60px;
+ 				height:60px;
+ 				border: solid black;
+ 				
+ }
+ .key:hover{
+   transition: ease in out 1s;
+   border: solid 3px black;
+   color:black;
+   font-weight:bold black 2px;
+   
+   }
+ 
+ 
+ .gif{
+ 				
+ 				
+ 				background-image:url('start.mp4');
+ 				background-attatchment:cover;
+ 				background-position:center;
+ }
+
+    </style>
+    
+</head>
+<body>
+				<center>
+			
+			<img src="logo.jpg" style="width:100px;height:100px;border-radius:100px;">	<br><br>
+							
+<video autoplay loop muted>	
+<source src="start.mp4" width="400px" height="200px">
+							
+							
+							</center>
+				
+				<!-- Button for keys -->			
+				
+							<div class="piano">
+<h3 style="text-align:center;">Make Your Own Sound</h3><br>
+		
+
+<audio id="keyone">
+				<source src="key1.mp3" type="audio/mpeg">
+</audio>
+<button onclick="keyone()" class="key"><b>B</b></button>		 
+
+
+<audio id="keyten"><source src="key10.mp3" type="audio/mpeg">
+</audio>
+
+<button onclick="keyten()" class="key"><b>B</b></button>
+
+<audio id="keytwo"><source src="key2.mp3" type="audio/mpeg">
+</audio>
+
+<button onclick="keytwo()" class="key"><b>B</b></button>
+
+
+<audio id="keythree"><source src="key3.mp3" type="audio/mpeg">
+</audio>
+<button onclick="keythree()" class="key"><b>B</b></button>
+
+
+<audio id="keyfour"><source src="key4.mp3" type="audio/mpeg">
+</audio>
+
+<button onclick="keyfour()" class="key"><b>B</b></button>
+
+
+<audio id="keyfive"><source src="key5.mp3" type="audio/mpeg">
+</audio>
+<button onclick="keyfive()" class="key"><b>B</b></button>
+
+<audio id="keyeleven"><source src="key11.mp3" type="audio/mpeg">
+</audio>
+<button onclick="keyeleven()" class="key"><b>B</b></button>
+
+<audio id="keytwelve"><source src="key12.mp3" type="audio/mpeg">
+</audio>
+<button onclick="keytwelve()" class="key"><b>B</b></button>
+
+
+<div></div>
+<audio id="keysix"><source src="key6.mp3" type="audio/mpeg">
+</audio>
+<button onclick="keysix()" class="key"><b>B</b></button>
+
+
+<audio id="keyseven"><source src="key7.mp3" type="audio/mpeg">
+</audio>
+<button onclick="keyseven()" class="key"><b>B</b></button>
+
+<audio id="keyeight"><source src="key8.mp3" type="audio/mpeg">
+</audio>
+<button onclick="keyeight()" class="key"><b>B</b></button>
+
+
+<audio id="keynine"><source src="key9.mp3" type="audio/mpeg">
+</audio>
+<button onclick="keynine()" class="key"><b>B</b></button>
+
+
+
+
+								
+							</div>
+							
+
+							
+							<small>
+											<span style="font-size:10px;opacity:4;text-align:center;">
+									<center>Powered By Geo Tech Solutions</center>
+								</span>
+							</small>
+							</section>
+							
+							<script src="app.js">
+
+							</script>
+							</body>
+							
+							</html>
